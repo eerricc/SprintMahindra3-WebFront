@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.registration-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.registration-title{
+    font-size: 1.5rem;
+    margin-top: auto;
+}
+
+
+.registration-form{
+    min-width: 30%;
+    min-height: 600px;
+}
+
+.registration-input{
+    width: 100%;
+    min-height: 3em;
+    background-color: black;
+    color: gold;
+}
+
+.registration-label{
+    margin: 1rem 0;
+    display: block;
+}
+
+.registration-submit-btn{
+    display: block;
+    min-width: 30%;
+    height: 30px;
+    margin: 2em auto;
+    font-size: 1rem;
+    background-color: black;
+    color: gold;
+}
